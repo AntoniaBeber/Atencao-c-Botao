@@ -1,0 +1,38 @@
+:root{
+  --arredondamento: 10px;
+  --cor-primaria: Preto;
+}
+
+
+
+.card {
+  width: 400px;
+  border: 1px solid;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.card .titulo {
+  margin: 0;
+  font-size: 30px;
+  color: var(--cor-primaria);
+}
+
+.card #conteudo {
+  margin: 15px 0;
+}
+
+button1 , button2{
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+  padding: 8px;
+  border-radius: 5px;
+ 
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
